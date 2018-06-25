@@ -10,6 +10,7 @@ function addMenuButton() {
   var menuButton = "<div id='memberFilterButtons' class='extra-buttons'></div>";
   $(menuButton).prependTo('div.BoardHeader.Board-header');
   var container = $("#memberFilterButtons");
+  container.append("<span class='prefix'>Filter by: </span>");
   for (var person of people) {
     var bgImage = $(person).css('background-image');
     var bg = bgImage.replace('url(','').replace(')','').replace(/\"/gi, "");

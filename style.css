@@ -14,5 +14,13 @@ button.kanbanFilter {
    width: auto;
  }
  .Board--hasViewMenu .BoardBody-columnHorizontalScrollable {
-   padding-top: 50px;
+   padding-top: 45px !important;
+ }
+ #memberFilterButtons .prefix {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100%;
+  display: inline-block;
+  vertical-align: -webkit-baseline-middle;
+  margin-right: 10px;
  }
