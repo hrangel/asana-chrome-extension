@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Asana Ext",
+  "short_name": "Filter Assignee & more",
+  "version": "0.1",
+  "description": "Filter kanban cards by assignee",
+  "content_scripts": [
+    {
+      "matches": ["https://app.asana.com/*"],
+      "js": ["jquery-3.3.1.min.js", "script.js"],
+      "css": ["style.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

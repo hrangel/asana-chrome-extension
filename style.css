@@ -1,0 +1,18 @@
+button.kanbanFilter {
+  width: 24px;
+  height: 24px;
+  border-width: 0px;
+  margin: 0px 10px 0px 0px;
+  max-height: 27px;
+  box-shadow: 0 0 0 2px #fff, inset 0 0 0 1px rgba(0,0,0,0.07);
+ }
+ button.kanbanFilter:focus {
+   outline: none;
+ }
+ button.kanbanFilter img {
+   height: 27px;
+   width: auto;
+ }
+ .Board--hasViewMenu .BoardBody-columnHorizontalScrollable {
+   padding-top: 50px;
+ }
